@@ -26,9 +26,10 @@ services:
       - WHATSAPP_HOOK_EVENTS=message
       - WHATSAPP_DEFAULT_ENGINE=WEBJS
       - WHATSAPP_API_KEY=321
-      - WHATSAPP_SWAGGER_USERNAME=admin
-      - WHATSAPP_SWAGGER_PASSWORD=123
+      - WHATSAPP_SWAGGER_USERNAME=khosravan
+      - WHATSAPP_SWAGGER_PASSWORD=Khosravan@2024
       - WHATSAPP_API_HOSTNAME=localhost
+      WHATSAPP_FILES_LIFETIME=0
     restart: always
 
   mongodb:
